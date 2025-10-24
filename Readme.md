@@ -1,8 +1,8 @@
-mkdir temp
-cd temp
-jar xf ../addit.jar
-cd ..
-javac -cp addit.jar -d out HelloWorld.java
-cp -r out/* temp/
-jar cfe HelloWorldFat.jar HelloWorld -C temp .
-java -jar HelloWorldFat.jar 
+- mkdir temp
+ - cd temp
+- jar xf ../addit.jar
+ - cd ..
+- javac -cp addit.jar -d out HelloWorld.java
+- cp -r out/* temp/
+- jar cfe HelloWorldFat.jar HelloWorld -C temp .
+- java -jar HelloWorldFat.jar 
