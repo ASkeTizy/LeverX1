@@ -5,12 +5,8 @@ import addit.Nest;
 public class HelloWorld{
     public static void main(String[] args) {
         new Anonym().print();
-        new Func() {
-            @Override
-            public void printer() {
-                System.out.println("Anonym2");
-            }
-        }.printer();
+        Func foo = () -> System.out.println("Anonym2");
+
         new Nest().outer();
         System.out.println("Test");
     }
