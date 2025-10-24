@@ -6,7 +6,7 @@ public class HelloWorld{
     public static void main(String[] args) {
         new Anonym().print();
         Func foo = () -> System.out.println("Anonym2");
-
+        foo.printer();
         new Nest().outer();
         System.out.println("Test");
     }
