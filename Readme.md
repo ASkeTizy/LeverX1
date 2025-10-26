@@ -2,7 +2,7 @@
  - cd temp
 - jar xf ../addit.jar
  - cd ..
-- javac -cp addit.jar -d out HelloWorld.java
+- javac -cp addit.jar -d out src/HelloWorld.java
 - cp -r out/* temp/
-- jar cfe HelloWorldFat.jar HelloWorld -C temp .
+- jar cfe HelloWorldFat.jar src.HelloWorld -C temp .
 - java -jar HelloWorldFat.jar 

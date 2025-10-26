@@ -1,7 +1,7 @@
+package src;
 import addit.Anonym;
 import addit.Func;
 import addit.Nest;
-
 public class HelloWorld{
     public static void main(String[] args) {
         new Anonym().print();
